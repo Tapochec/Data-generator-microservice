@@ -28,7 +28,6 @@ public class DataMapper implements Mappable<Data, DataDto> {
     @Override
     public DataDto toDto(Data entity) {
         DataDto dto = new DataDto();
-        // Преобразование полей из Data в DataDto
         return dto;
     }
 }
